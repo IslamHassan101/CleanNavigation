@@ -1,4 +1,4 @@
-package com.islam.cleannavigation
+package com.islam.cleannavigation.navigation_utils
 
 import kotlinx.coroutines.channels.Channel
 

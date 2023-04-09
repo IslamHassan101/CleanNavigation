@@ -1,7 +1,7 @@
 package com.islam.cleannavigation.main
 
 import androidx.lifecycle.ViewModel
-import com.islam.cleannavigation.AppNavigator
+import com.islam.cleannavigation.navigation_utils.AppNavigator
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

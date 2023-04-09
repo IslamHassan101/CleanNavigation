@@ -1,4 +1,4 @@
-package com.islam.cleannavigation.users_details
+package com.islam.cleannavigation.details
 
 import androidx.compose.runtime.Composable
 

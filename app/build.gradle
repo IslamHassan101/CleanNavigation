@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace 'com.islam.cleannavigation'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.islam.cleannavigation"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -70,6 +70,10 @@ dependencies {
     // ViewModel
     def lifecycle_version = "2.6.1"
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version"
+
+    //coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+
 
     //Dagger - hilt
     implementation "com.google.dagger:hilt-android:2.44"

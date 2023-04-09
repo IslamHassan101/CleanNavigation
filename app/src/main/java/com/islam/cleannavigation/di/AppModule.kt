@@ -1,6 +1,6 @@
 package com.islam.cleannavigation.di
 
-import com.islam.cleannavigation.AppNavigator
+import com.islam.cleannavigation.navigation_utils.AppNavigator
 import com.islam.cleannavigation.navigation_utils.AppNavigatorIMPI
 import dagger.Binds
 import dagger.Module

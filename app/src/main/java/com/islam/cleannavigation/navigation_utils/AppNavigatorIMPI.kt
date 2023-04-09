@@ -1,7 +1,5 @@
 package com.islam.cleannavigation.navigation_utils
 
-import com.islam.cleannavigation.AppNavigator
-import com.islam.cleannavigation.NavigationIntent
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.channels.Channel
 import javax.inject.Inject

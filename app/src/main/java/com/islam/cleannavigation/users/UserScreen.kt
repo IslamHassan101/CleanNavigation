@@ -1,4 +1,4 @@
-package com.islam.cleannavigation.users_details
+package com.islam.cleannavigation.users
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.IconButton
@@ -8,7 +8,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.islam.cleannavigation.UsersViewModel
 
 @Composable
 fun UserScreen(usersViewModel: UsersViewModel = hiltViewModel()) {

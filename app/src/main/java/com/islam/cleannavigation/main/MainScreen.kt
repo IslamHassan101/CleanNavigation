@@ -1,4 +1,4 @@
-package com.islam.cleannavigation
+package com.islam.cleannavigation.main
 
 import android.app.Activity
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,10 +10,16 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.islam.cleannavigation.main.MainViewModel
+import com.islam.cleannavigation.details.DetailsScreen
+import com.islam.cleannavigation.home.HomeScreen
+import com.islam.cleannavigation.messages.MessagesScreen
 import com.islam.cleannavigation.navigation_utils.Destination
+import com.islam.cleannavigation.navigation_utils.NavHosts
+import com.islam.cleannavigation.navigation_utils.NavigationIntent
+import com.islam.cleannavigation.navigation_utils.composable
 import com.islam.cleannavigation.users_details.*
 import com.islam.cleannavigation.ui.theme.CleanNavigationTheme
+import com.islam.cleannavigation.users.UserScreen
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
 
